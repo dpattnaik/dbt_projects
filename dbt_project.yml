@@ -35,3 +35,7 @@ models:
     # Config indicated by + and applies to all files under models/example/
     jaffle_shop:
       +materialized: table
+    
+    staging:
+      +materialized: table
+      +schema: staging
