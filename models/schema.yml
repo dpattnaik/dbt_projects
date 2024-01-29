@@ -13,6 +13,7 @@ models:
     description: This model transforms customer data
     columns:
       - name: customer_id
+        description: unique customer id
         tests:
           - unique
           - not_null
